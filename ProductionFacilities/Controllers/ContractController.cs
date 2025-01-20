@@ -20,8 +20,8 @@ namespace ProductionFacilities.WebApi.Controllers
             return Ok(data);
         }
 
-        [HttpPost("AddProductionFacility")]
-        public async Task<IActionResult> AddProductionFacility([FromBody]ContractDto entity)
+        [HttpPost("Add")]
+        public async Task<IActionResult> Add([FromBody]ContractDto entity)
         {
             var result = await contractService.AddContract(entity);
             if (result.IsSuccess)
