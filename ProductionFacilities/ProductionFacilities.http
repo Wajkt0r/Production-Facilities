@@ -1,6 +1,15 @@
 @ProductionFacilities_HostAddress = http://localhost:5107
 
-GET {{ProductionFacilities_HostAddress}}/weatherforecast/
+GET {{ProductionFacilities_HostAddress}}/Contract/GetAll
 Accept: application/json
+###
+
+POST {{ProductionFacilities_HostAddress}}/Contract/AddProductionFacility
+Content-Type: application/json
+{
+    "ProductionFacilityCode": "FAC001",
+    "EquipmentTypeCode": "Main Production Facility",
+    "UnitsNumber": 150
+}
 
 ###

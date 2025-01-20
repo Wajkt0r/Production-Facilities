@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductionFacilities.WebApi", "ProductionFacilities.WebApi.csproj", "{CAEAADC1-2B3E-4396-BF62-8258CF66E78A}"
 EndProject
@@ -10,6 +10,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductionFacilities.Application", "..\ProductionFacilities.Application\ProductionFacilities.Application.csproj", "{B09DA8B1-8BD4-45DD-89AD-6446BEC3B4D2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductionFacilities.Infrastructure", "..\ProductionFacilities.Infrastructure\ProductionFacilities.Infrastructure.csproj", "{444604E1-2438-402F-B39D-D3F129BC0F6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductionFacilities.Application.Tests", "..\ProductionFacilities.Application.Tests\ProductionFacilities.Application.Tests.csproj", "{83B77222-6933-4C8A-BF8D-50C3DC7418DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductionFacilities.WebApi.Tests", "..\ProductionFacilities.WebApi.Tests\ProductionFacilities.WebApi.Tests.csproj", "{541C3DA3-E516-4393-BCE7-5000C0A82A4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{444604E1-2438-402F-B39D-D3F129BC0F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{444604E1-2438-402F-B39D-D3F129BC0F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{444604E1-2438-402F-B39D-D3F129BC0F6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83B77222-6933-4C8A-BF8D-50C3DC7418DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83B77222-6933-4C8A-BF8D-50C3DC7418DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83B77222-6933-4C8A-BF8D-50C3DC7418DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83B77222-6933-4C8A-BF8D-50C3DC7418DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{541C3DA3-E516-4393-BCE7-5000C0A82A4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{541C3DA3-E516-4393-BCE7-5000C0A82A4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{541C3DA3-E516-4393-BCE7-5000C0A82A4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{541C3DA3-E516-4393-BCE7-5000C0A82A4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
