@@ -28,7 +28,7 @@ namespace ProductionFacilities.Application.Services
 
             if (!validationResult.IsSuccess) return CommandResult.Failure(validationResult.Message);
 
-            if (await CalculateFacilityAreaLeft(contractDto) <= 0) return CommandResult.Failure("No space for this contract");
+            if (await CalculateFacilityAreaLeft(contractDto) < 0) return CommandResult.Failure("No space for this contract");
 
             var contract = new Domain.Entities.Contract()
             {

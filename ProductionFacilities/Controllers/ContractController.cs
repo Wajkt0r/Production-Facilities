@@ -28,7 +28,7 @@ namespace ProductionFacilities.WebApi.Controllers
             {
                 return Ok(result);
             }
-            return StatusCode(result.StatusCode, result.Message);
+            return StatusCode(result.StatusCode, result);
         }
     }
 
